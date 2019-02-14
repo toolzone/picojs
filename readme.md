@@ -1,14 +1,13 @@
-# pico.js: a face-detection library in 200 lines of JavaScript
+# pico.js：200行JavaScript中的面部检测库
+* 大约200行纯JavaScript
+* 有关详细信息，请参阅<https://tkv.io/posts/picojs-intro/>
+* 实时检测演示可在<https://tkv.io/posts/picojs-intro/demo/获得>
 
-* approximately 200 lines of pure JavaScript
-* see <https://tkv.io/posts/picojs-intro/> for details
-* real-time detection demo available at <https://tkv.io/posts/picojs-intro/demo/>
+* 该文件夹`img/`包含一个演示，演示如何检测静止图像中的面部。
+* 该文件夹`cam/`显示了如何进行基于网络摄像头的实时人脸检测。
+* 使用这些文件作为文档。
 
-The folder `img/` contains a demo that shows how to detect faces in still images.
-The folder `cam/` shows how to do webcam-based real-time face detection.
-Use these files as documentation.
-
-The folder `wasm/` demonstrates how to compile `pico` to WebAssembly.
+该文件夹`wasm/`演示了如何编译pico到WebAssembly。
 
 ## License
 
